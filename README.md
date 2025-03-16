@@ -9,7 +9,7 @@
     - Jetpack Compose
     - Kotlin
     - SDR
-- 💞️ I’m looking to collaborate on:
+- 🤝 I’m looking to collaborate on:
     - anything
 - 📫 How to reach me:
   - [0xChat](https://github.com/0xchat-app)
