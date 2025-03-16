@@ -2,6 +2,7 @@
 - 👀 I’m interested in webapps
 - 🌱 I’m currently learning JavaScript
 - 💞️ I’m looking to collaborate on anything
-- 📫 How to reach me OxChat
-- npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c
+- 📫 How to reach me
+-   OxChat
+-   npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c
 - ⚡ Fun fact: ...
