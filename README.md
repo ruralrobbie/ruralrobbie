@@ -1,8 +1,18 @@
-- 👋 Hi, I’m @ruralrobbie
-- 👀 I’m interested in webapps
-- 🌱 I’m currently learning JavaScript
-- 💞️ I’m looking to collaborate on anything
-- 📫 How to reach me
-  - OxChat
+# 👋 Hi, I’m ruralrobbie
+- 👀 I’m interested in:
+  - webapps
+  - time
+  - productivity
+  - exective assistant
+  - comms
+- 🌱 I’m currently learning
+    - Jetpack Compose
+    - Kotlin
+    - SDR
+- 💞️ I’m looking to collaborate on:
+    - anything
+- 📫 How to reach me:
+  - [0xChat](https://github.com/0xchat-app)
   - npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c
-- ⚡ Fun fact: ...
+- ⚡ Fun facts:
+    - This is for fun
