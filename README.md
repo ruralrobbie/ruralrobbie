@@ -18,3 +18,4 @@
 - ⚡ IYKYK
     - ruralrobbie@coinos.io
     - Monero: 46vswZwna3B1m5a8Grahqg1kmvf3gkK63DJrw2Yot7fo2qtptyu2k1pYB9iBEGemxPc3svM7YCA7YanHsGYVEzYK2GH12Jy
+    - ![Monero](monero.png)
