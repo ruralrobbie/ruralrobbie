@@ -7,59 +7,109 @@
   <title>ruralrobbie</title>
   <link rel="stylesheet" href="style.css">
 </head>
-<body id="body">
-  <div class="container">
-    <div class="header">
-      <div class="lang-switch">
-        <button onclick="setLang('en')">EN</button>
-        <button onclick="setLang('ko')">KO</button>
-        <button onclick="setLang('fr')">FR</button>
-      </div>
-      <button id="theme-toggle" onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
-    </div>
-
-    <h1 id="greeting">👋 Hi, I’m ruralrobbie</h1>
-
-    <h2 id="interests-title">👀 Interests</h2>
-    <ul id="interests">
-      <li>Web apps</li>
-      <li>Time</li>
-      <li>Bitcoin</li>
-      <li>Productivity</li>
-      <li>Executive assistants</li>
-      <li>Communications</li>
-    </ul>
-
-    <h2>🌱 Currently learning</h2>
-    <ul>
-      <li>Jetpack Compose</li>
-      <li>Kotlin</li>
-      <li>SDR</li>
-    </ul>
-
-    <h2 id="collab-title">🤝 Open to collaboration on</h2>
-    <p id="collab">Pretty much anything.</p>
-
-    <h2>📫 Contact</h2>
-    <ul>
-      <li>0xChat</li>
-      <li>npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c</li>
-    </ul>
-
-    <h2>⚡ IYKYK</h2>
-    <ul>
-      <li>ruralrobbie@coinos.io</li>
-      <li>Monero: 46vswZwna3B1m5a8Grahqg1kmvf3gkK63DJrw2Yot7fo2qtptyu2k1pYB9iBEGemxPc3svM7YCA7YanHsGYVEzYK2GH12Jy</li>
-    </ul>
-    <img src="monero.png" alt="Monero QR Code" style="max-width: 200px; display: block; margin: 10px auto;">
-
-    <h2>🛠️ My Projects</h2>
-    <ul>
-      <li><a href="https://days.ruralrobbie.cfd/">Days</a></li>
-      <li><a href="https://clutter.ruralrobbie.net">Clutter</a></li>
-      <li><a href="http://marriage.ruralrobbie.cfd/">Marriage</a></li>
-    </ul>
+<body>
+  <div class="theme-toggle" onclick="toggleTheme()">
+    <span class="sun">☀️</span>
+    <span class="moon">🌙</span>
   </div>
+
+  <div class="lang-switcher">
+    <button onclick="setLang('en')" class="active">EN</button>
+    <button onclick="setLang('ko')">한</button>
+    <button onclick="setLang('fr')">FR</button>
+  </div>
+
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#philosophy">Philosophy</a>
+    <a href="#work">Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <header class="hero">
+    <h1 class="glitch" data-text="ruralrobbie">ruralrobbie</h1>
+    <p class="subtitle" id="subtitle">Builder. Thinker. Time enthusiast.</p>
+  </header>
+
+  <main class="container">
+    <section id="about" class="section">
+      <h2 id="about-title">About Me</h2>
+      <div class="card">
+        <p id="about-text">
+          I build web applications and explore the intersections of technology, time, and human productivity. 
+          Currently deep in the world of Kotlin and Jetpack Compose, while maintaining a healthy obsession 
+          with Bitcoin, decentralization, and SDR technology.
+        </p>
+        <div class="interests-grid">
+          <div class="interest-tag">⚡ Web Apps</div>
+          <div class="interest-tag">⏰ Time</div>
+          <div class="interest-tag">₿ Bitcoin</div>
+          <div class="interest-tag">🚀 Productivity</div>
+          <div class="interest-tag">📡 SDR</div>
+          <div class="interest-tag">🤝 Communication</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="philosophy" class="section">
+      <h2 id="philosophy-title">Philosophy & Theology</h2>
+      <div class="card">
+        <blockquote id="philosophy-text">
+          I approach life through a lens of Christian philosophy, believing in the inherent value of time 
+          as a gift and the importance of stewarding it well. Technology should serve humanity, not enslave it. 
+          Bitcoin represents more than currency—it's a return to sound principles of value and truth. 
+          I believe in building tools that respect human agency and promote genuine connection.
+        </blockquote>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <h2 id="work-title">Projects</h2>
+      <div class="projects-grid">
+        <a href="https://days.ruralrobbie.cfd/" class="project-card">
+          <h3>Days</h3>
+          <p>Time tracking reimagined</p>
+        </a>
+        <a href="https://clutter.ruralrobbie.net" class="project-card">
+          <h3>Clutter</h3>
+          <p>Organize your digital life</p>
+        </a>
+        <a href="http://marriage.ruralrobbie.cfd/" class="project-card">
+          <h3>Marriage</h3>
+          <p>Relationship tools</p>
+        </a>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2 id="contact-title">Get in Touch</h2>
+      <div class="card contact-card">
+        <div class="contact-info">
+          <div class="contact-item">
+            <span class="label">Nostr</span>
+            <code>npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c</code>
+          </div>
+          <div class="contact-item">
+            <span class="label">Lightning</span>
+            <code>ruralrobbie@coinos.io</code>
+          </div>
+          <div class="contact-item">
+            <span class="label">Monero</span>
+            <code class="monero-addr">46vswZwna3B1m5a8Grahqg1kmvf3gkK63DJrw2Yot7fo2qtptyu2k1pYB9iBEGemxPc3svM7YCA7YanHsGYVEzYK2GH12Jy</code>
+          </div>
+        </div>
+        <div class="qr-code">
+          <img src="monero.png" alt="Monero QR Code">
+          <span class="qr-label">Monero</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer-text">Open to collaboration on meaningful projects. Let's build something worthwhile.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
