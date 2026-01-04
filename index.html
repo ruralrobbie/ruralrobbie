@@ -8,16 +8,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <table width="100%" border="0" cellpadding="0" cellspacing="0">
-    <tr>
-      <td align="right">
-        <a href="javascript:void(0)" onclick="toggleTheme()">[THEME]</a>
-        <a href="javascript:void(0)" onclick="setLang('en')">[EN]</a>
-        <a href="javascript:void(0)" onclick="setLang('ko')">[KO]</a>
-        <a href="javascript:void(0)" onclick="setLang('fr')">[FR]</a>
-      </td>
-    </tr>
-  </table>
+  <div class="header">
+    <a href="javascript:void(0)" onclick="toggleTheme()">[THEME]</a>
+    <a href="javascript:void(0)" onclick="setLang('en')">[EN]</a>
+    <a href="javascript:void(0)" onclick="setLang('ko')">[KO]</a>
+    <a href="javascript:void(0)" onclick="setLang('fr')">[FR]</a>
+  </div>
 
   <h1>RURALROBBIE</h1>
   <p class="tagline" id="tagline">BUILDER / THINKER / STEWARD OF TIME</p>
@@ -56,60 +52,59 @@
   <hr>
 
   <h2 id="projects-title">PROJECTS</h2>
-  <table width="100%" border="1" cellpadding="8" cellspacing="0">
-    <tr>
-      <td width="30%"><b>DAYS</b></td>
-      <td>Time tracking reimagined</td>
-      <td width="20%"><a href="https://days.ruralrobbie.cfd/">VISIT</a></td>
-    </tr>
-    <tr>
-      <td><b>CLUTTER</b></td>
-      <td>Organize your digital life</td>
-      <td><a href="https://clutter.ruralrobbie.net">VISIT</a></td>
-    </tr>
-    <tr>
-      <td><b>MARRIAGE</b></td>
-      <td>Relationship tools</td>
-      <td><a href="http://marriage.ruralrobbie.cfd/">VISIT</a></td>
-    </tr>
-  </table>
+  
+  <div class="project">
+    <h3>DAYS</h3>
+    <p id="project-days">Time tracking reimagined</p>
+    <a href="https://days.ruralrobbie.cfd/">VISIT</a>
+  </div>
+
+  <div class="project">
+    <h3>CLUTTER</h3>
+    <p id="project-clutter">Organize your digital life</p>
+    <a href="https://clutter.ruralrobbie.net">VISIT</a>
+  </div>
+
+  <div class="project">
+    <h3>MARRIAGE</h3>
+    <p id="project-marriage">Relationship tools</p>
+    <a href="http://marriage.ruralrobbie.cfd/">VISIT</a>
+  </div>
 
   <hr>
 
   <h2 id="contact-title">CONTACT</h2>
-  <table width="100%" border="1" cellpadding="8" cellspacing="0">
-    <tr>
-      <td width="30%"><b>EMAIL</b></td>
-      <td>talk@ruralrobbie.net</td>
-    </tr>
-    <tr>
-      <td><b>NOSTR</b></td>
-      <td><small>npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c</small></td>
-    </tr>
-    <tr>
-      <td><b>LIGHTNING</b></td>
-      <td>ruralrobbie@coinos.io</td>
-    </tr>
-    <tr>
-      <td><b>MONERO</b></td>
-      <td><small>46vswZwna3B1m5a8Grahqg1kmvf3gkK63DJrw2Yot7fo2qtptyu2k1pYB9iBEGemxPc3svM7YCA7YanHsGYVEzYK2GH12Jy</small></td>
-    </tr>
-  </table>
+  
+  <div class="contact-item">
+    <strong>EMAIL</strong>
+    <p>talk@ruralrobbie.net</p>
+  </div>
 
-  <br>
-  <center>
-    <img src="monero.png" alt="MONERO QR CODE" width="200" height="200" border="2">
-    <br>
-    <b>MONERO QR</b>
-  </center>
+  <div class="contact-item">
+    <strong>NOSTR</strong>
+    <p class="break-word">npub152lgj2u9fd4grea4tnjwrgrcwny34pyjteqtk9vh7gj0drp9ynkqgpq03c</p>
+  </div>
+
+  <div class="contact-item">
+    <strong>LIGHTNING</strong>
+    <p>ruralrobbie@coinos.io</p>
+  </div>
+
+  <div class="contact-item">
+    <strong>MONERO</strong>
+    <p class="break-word">46vswZwna3B1m5a8Grahqg1kmvf3gkK63DJrw2Yot7fo2qtptyu2k1pYB9iBEGemxPc3svM7YCA7YanHsGYVEzYK2GH12Jy</p>
+  </div>
+
+  <div class="qr-container">
+    <img src="monero.png" alt="MONERO QR CODE">
+    <p><strong>MONERO QR</strong></p>
+  </div>
 
   <hr>
 
-  <p id="footer-text"><b>OPEN TO COLLABORATION.</b> Let's build something meaningful.</p>
+  <p id="footer-text"><strong>OPEN TO COLLABORATION.</strong> Let's build something meaningful.</p>
 
-  <p align="center">
-    <small>BEST VIEWED WITH ANY BROWSER | 1998-2026</small>
-  </p>
+  <p class="footer-note">BEST VIEWED WITH ANY BROWSER | 1998-2026</p>
 
   <script src="script.js"></script>
 </body>
